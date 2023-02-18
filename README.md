@@ -24,7 +24,7 @@ Ultimately, this agent is exemplified by playing Atari games, such as _Space Inv
 ### Install the Atari ROMs
 Install the ROMs for the Atari games, a guide can be seen here:
 
-`https://github.com/openai/atari-py`
+[https://github.com/openai/atari-py](https://github.com/openai/atari-py)
 
 ## Training
 The following is an example command which should be able to be run out of the box.

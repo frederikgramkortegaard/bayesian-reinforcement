@@ -1,8 +1,10 @@
 # Bayesian Reinforcement Learning
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/frederikgram/Bayesian-Reinforcement/blob/master/LICENSE)
 
-
 Reinforcement Learning with Variational Bayesian Inference and Elastic Weight Consolidation (EWC).
+
+:pushpin: [Paper](https://raw.githubusercontent.com/frederikgram/Bayesian-Reinforcement/master/report.pdf?raw=true)
+
 
 In this project we present an implementation of a deep reinforcement learning agent, specifically using a Deep Deterministic Policy Gradient (DDPG) algorithm. 
 
@@ -13,9 +15,6 @@ The agent is trained using a Variational Bayesian Network, which in broad terms 
 Further, the agent is trained using Elastic Weight Consolidation (EWC), which is a method of preventing catastrophic forgetting. Intuitively, this can be thought of as a way making neurons more resilient to changes in the environment, in proportion to their importance. Neurons which are important to the current task are less likely to be changed, and thus are less likely to forget the current task.
 
 Ultimately, this agent is exemplified by playing Atari games, such as _Space Invaders_ and _Breakout_. However, the agent is not limited to these games, and can be used for any discrete action space environment.
-
-:pushpin: [Paper](https://raw.githubusercontent.com/frederikgram/Bayesian-Reinforcement/master/report.pdf?raw=true)
-
 
 
 ## Installation
@@ -39,8 +38,6 @@ More information about the flags can be found by running `python3 train.py --hel
 
 Once the training is completed, or has been stopped via. `Ctrl+C`, the model will be saved inside a new directory, where the metrics will be saved as a `.npy` file.
 
-## Visualization Summary
-<img src="resources/canvas.png">
 
 
 ### Settings
@@ -85,6 +82,8 @@ optional arguments:
   --slow_render
 ```
 
+## Visualization Summary
+<img src="resources/canvas.png">
 
 ### Common Errors
 

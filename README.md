@@ -16,8 +16,6 @@ Ultimately, this agent is exemplified by playing Atari games, such as _Space Inv
 
 :pushpin: [Paper](https://raw.githubusercontent.com/frederikgram/Bayesian-Reinforcement/master/report.pdf?raw=true)
 
-:pushpin: Canvas Summary
-<img src="resources/canvas.png">
 
 
 ## Installation
@@ -40,6 +38,10 @@ If your device supports CUDA, you can use the GPU to train the model. To do so, 
 More information about the flags can be found by running `python3 train.py --help`.
 
 Once the training is completed, or has been stopped via. `Ctrl+C`, the model will be saved inside a new directory, where the metrics will be saved as a `.npy` file.
+
+## Visualization Summary
+<img src="resources/canvas.png">
+
 
 ### Settings
 ```

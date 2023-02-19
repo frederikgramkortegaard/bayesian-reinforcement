@@ -10,7 +10,7 @@ In this project we present an implementation of a deep reinforcement learning ag
 
 The underlying Artificial Neural Network (ANN) has an architecture similar to that of typical RESNETs, though with a few differences, as architectures such as _RESnet50_ are simply too large for this project.
 
-The agent is trained using a Variational Bayesian Network, which in broad terms means that their weights are represented by a probability distribution, rather than a single value. This allows the agent to learn from sparse rewards, as well as to learn from multiple tasks.
+The agent is trained using a Variational Bayesian Network, which in broad terms means that their weights are represented by a probability distribution, rather than a single value. This allows the agent to describe uncertainty in weights, and estimate uncertainty in predictions.
 
 Further, the agent is trained using Elastic Weight Consolidation (EWC), which is a method of preventing catastrophic forgetting. Intuitively, this can be thought of as a way making neurons more resilient to changes in the environment, in proportion to their importance. Neurons which are important to the current task are less likely to be changed, and thus are less likely to forget the current task.
 

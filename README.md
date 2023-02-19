@@ -16,6 +16,10 @@ Ultimately, this agent is exemplified by playing Atari games, such as _Space Inv
 
 :pushpin: [Paper](https://raw.githubusercontent.com/frederikgram/Bayesian-Reinforcement/master/report.pdf?raw=true)
 
+:pushpin: Canvas Summary
+<img src="resources/canvas.png">
+
+
 ## Installation
 
 ### Install Python dependencies

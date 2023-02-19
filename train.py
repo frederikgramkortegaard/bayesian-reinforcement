@@ -74,7 +74,6 @@ def run_agent(args):
     preprocesser = prefig["preprocessor"]
 
     env = gym.make(prefig["environment_name"])
-    # env.seed(args.seed)
 
     # Initialize the agent
     agent = DDPG(

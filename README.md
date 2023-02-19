@@ -3,7 +3,7 @@
 
 Reinforcement Learning with Variational Bayesian Inference and Elastic Weight Consolidation (EWC).
 
-:pushpin: [Paper](https://raw.githubusercontent.com/frederikgram/Bayesian-Reinforcement/master/report.pdf?raw=true)
+:pushpin: [Paper](https://raw.githubusercontent.com/frederikgram/Bayesian-Reinforcement/master/report/report.pdf?raw=true)
 
 
 In this project we present an implementation of a deep reinforcement learning agent, specifically using a Deep Deterministic Policy Gradient (DDPG) algorithm. 

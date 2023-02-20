@@ -10,9 +10,9 @@ In this project we present an implementation of a deep reinforcement learning ag
 
 The underlying Artificial Neural Network (ANN) has an architecture similar to that of typical RESNETs, though with a few differences, as architectures such as _RESnet50_ are simply too large for this project.
 
-The agent is trained using a Variational Bayesian Network, which in broad terms means that their weights are represented by a probability distribution, rather than a single value. This allows the agent to describe uncertainty in weights, and estimate uncertainty in predictions.
+Our agent uses Variational Bayesian Networks, which in broad terms means that the weights in the networks are represented by probability distributions, rather than single values. This allows the agent to describe uncertainty in weights, and estimate uncertainty in predictions.
 
-Further, the agent is trained using Elastic Weight Consolidation (EWC), which is a method of preventing catastrophic forgetting. Intuitively, this can be thought of as making neurons more resilient to changes in the environment, in proportion to their importance. Neurons which are important to the current task are less likely to be changed, and thus are less likely to forget the current task.
+Further, the agent is using Elastic Weight Consolidation (EWC), which is a method of preventing catastrophic forgetting. Intuitively, this can be thought of as making neurons more resilient to changes in the environment, in proportion to their importance. Neurons which are important to the current task are less likely to be changed, and thus are less likely to forget the current task.
 
 Ultimately, this agent is exemplified by playing Atari games, such as _Space Invaders_ and _Breakout_. However, the agent is not limited to these games, and can be used for any discrete action space environment.
 

@@ -38,6 +38,8 @@ More information about the flags can be found by running `python3 train.py --hel
 
 Once the training is completed, or has been stopped via. `Ctrl+C`, the model will be saved inside a new directory, where the metrics will be saved as a `.npy` file.
 
+## Visualization Summary
+<img src="resources/canvas.png">
 
 
 ### Settings
@@ -82,8 +84,7 @@ optional arguments:
   --slow_render
 ```
 
-## Visualization Summary
-<img src="resources/canvas.png">
+
 
 ### Common Errors
 
